@@ -10,7 +10,7 @@ public class ControleDeCadastro {
 		try { Thread.sleep(seg); } catch (InterruptedException ex) {}
 	}
 
-	// RECEBE
+	// RECEBE UMA CHAR ESPECÍFICA PARA SER IMPRIMIDA NA TELA
 	static void linhas(char linha) {
 		for(int i = 0; i < 60; i++) {
 			System.out.print(linha);		
